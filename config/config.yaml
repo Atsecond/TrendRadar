@@ -133,7 +133,14 @@ rss:
     #   url: "https://example.com/feed.xml"
     #   enabled: false
     #   max_age_days: 0               # 示例：禁用过滤，推送所有文章
-
+    - url: "https://www.reddit.com/r/technology/.rss"
+      name: "Reddit 科技"
+    - url: "https://www.reddit.com/r/worldnews/.rss"
+      name: "Reddit 世界新闻"
+    - url: "https://www.reddit.com/r/artificial/.rss"
+      name: "Reddit AI"
+    - url: "https://www.reddit.com/top/.rss"
+      name: "Reddit 全站热门"
 
 # ===============================================================
 # 4. 报告模式
